@@ -1,0 +1,21 @@
+
+{% extends 'admin/base_site.html' %}
+
+{% load static %}
+{% block extrastyle %}
+        <link rel="stylesheet" type="text/css" href="{% static 'admin_css.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ {% endblock %}
+
+{% block branding %}
+
+    <div class="head bg-transparent">
+        <h1 id="name" class="text-black">Bø arragement</h1>
+    </div>
+    </header>
+
+{% endblock %}
+
+{% block nav-global %}
+    <img class="brand_img rounded-circle" src="{% static 'images/logo.jfif'%}" width="80" height="80" alt="logo">
+{% endblock %}

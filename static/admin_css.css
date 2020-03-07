@@ -1,0 +1,50 @@
+#container{
+background-image: url("images/bakgrunn.jpg");
+background-position: center;
+background-size: cover;
+min-height:100vh;
+}
+
+#header{
+position: relative;
+width: 100%;
+z-index: 99;
+background-color: transparent;
+padding: 40px 20px;
+transition: 0.3s;
+}
+
+
+.app-auth{
+background-color: rgba(0, 0, 0, 0.78);
+}
+.app-auth caption{
+background-color: rgba(128, 128, 128, 0.8);
+}
+
+.app-auth a{
+color:white;
+}
+.app-event{
+background-color: rgba(0, 0, 0, 0.78);
+
+}
+.app-event caption{
+background-color: rgba(128, 128, 128, 0.8);
+}
+.app-event a{
+color:white;
+}
+
+#content-related {
+background-color: rgba(0, 0, 0, 0.8);
+
+}
+#content-related h3,li,a{
+color:white;
+font-weight: bold;
+}
+#recent-actions-module h2{
+color:yellow;
+opacity: 1;
+}

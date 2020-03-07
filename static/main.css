@@ -1,0 +1,73 @@
+.img-logo
+{
+width: 76px;
+height: 76px;
+border-radius: 50%;
+overflow: hidden;
+margin-top: -6px;
+}
+
+body, html {
+min-height: 100vh;
+background-color: rgba(0, 0, 0, 0.93);
+}
+.bg {
+background-image: url("images/image.jpg");
+min-height: 100vh;
+background-position: center;
+background-size: cover;
+}
+.events-content{
+min-height:100vh;
+}
+
+.login-content{
+min-height:100vh;
+}
+.post-detail{
+min-height:100vh;
+}
+.navbar a:hover {
+color:green !important;
+}
+
+line-white {
+display: block;
+height: 1px;
+border: 0;
+border-top: 5px solid white;
+margin: 1em 10%;
+padding: 0 20px;
+border-radius:10%;
+}
+
+.card-img-event{
+opacity: 0.3;
+}
+
+
+
+#myTable {
+border-collapse: collapse;
+width: 100%;
+border: 1px solid #ddd;
+font-size: 18px;
+opacity: 0.9;
+
+}
+
+
+
+#myTable th, #myTable td {
+text-align: left;
+padding: 12px;
+}
+
+#myTable tr {
+border-bottom: 1px solid #ddd;
+}
+
+
+#myTable td a{
+color:greenyellow;
+}
